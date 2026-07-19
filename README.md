@@ -1,7 +1,6 @@
 # 📈 Sales Prediction using Python
 
-A machine learning project that predicts product sales based on advertising spend across **TV**, **Radio**, and **Newspaper** channels, and analyzes how each platform impacts sales outcomes. Built as **Task 4** of the Data Science Internship at **CodeAlpha**.
-
+A machine learning project that predicts product sales based on advertising spend across **TV**, **Radio**, and **Newspaper** channels, and analyzes how each platform impacts sales outcomes. 
 ---
 
 ##  Overview
