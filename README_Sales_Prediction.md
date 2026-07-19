@@ -4,11 +4,11 @@ A machine learning project that predicts product sales based on advertising spen
 
 ---
 
-## 📖 Overview
+##  Overview
 
 Advertising budgets are one of the biggest levers businesses use to drive sales, but not all channels are equally effective. This project builds a regression pipeline to predict sales from advertising spend, compares the performance of a linear model against an ensemble model, and quantifies exactly how much each advertising platform contributes to sales — delivering actionable insight for marketing budget allocation.
 
-## 📊 Dataset
+##  Dataset
 
 | Feature | Description |
 |---|---|
@@ -20,14 +20,14 @@ Advertising budgets are one of the biggest levers businesses use to drive sales,
 - 200 samples, no missing values
 - Source: `Advertising.csv`
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3**
 - **Pandas / NumPy** – data loading & manipulation
 - **Matplotlib / Seaborn** – data visualization
 - **Scikit-learn** – model training & evaluation
 
-## 🔍 Project Workflow
+##  Project Workflow
 
 1. **Data Loading & Inspection** — Loaded the dataset, checked shape, summary statistics, and confirmed there were no missing values.
 2. **Exploratory Data Analysis (EDA)** — Built a correlation heatmap and regression scatter plots to examine how each advertising channel relates to sales.
@@ -39,7 +39,7 @@ Advertising budgets are one of the biggest levers businesses use to drive sales,
 6. **Platform Impact Analysis** — Extracted Linear Regression coefficients to quantify the impact of each advertising channel on sales.
 7. **Best Model Visualization** — Plotted actual vs. predicted sales for the best-performing model.
 
-## 📈 Results
+##  Results
 
 ### Model Comparison
 
@@ -74,12 +74,12 @@ Predictions closely track the ideal diagonal line, confirming the model generali
 
 ![Actual vs Predicted Sales](sales_actual_vs_predicted.png)
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/CodeAlpha_Sales_Prediction.git
-   cd CodeAlpha_Sales_Prediction
+   git clone https://github.com/<your-username>/Sales_Prediction.git
+   cd Sales_Prediction
    ```
 
 2. Install the required dependencies:
@@ -94,7 +94,7 @@ Predictions closely track the ideal diagonal line, confirming the model generali
 
 The script will print dataset info, model performance metrics, and platform coefficients to the console, and save all visualizations (correlation heatmap, regression plots, platform impact, actual vs predicted) as `.png` files in the project directory.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CodeAlpha_Sales_Prediction/
@@ -108,17 +108,10 @@ CodeAlpha_Sales_Prediction/
 └── README.md                           # Project documentation
 ```
 
-## 🎯 Key Takeaways
+##  Key Takeaways
 
 - **TV advertising** has the strongest overall correlation with sales.
 - **Radio advertising** delivers the highest marginal return per dollar spent, based on regression coefficients.
 - **Newspaper advertising** has the weakest impact on sales and may be the least efficient channel to invest in.
 - Ensemble models like Random Forest can capture non-linear advertising effects that simple linear regression misses.
 
-## 🙌 Acknowledgment
-
-This project was completed as part of the **Data Science Internship at [CodeAlpha](https://www.codealpha.tech)**.
-
----
-
-📌 *Feel free to fork this repository, raise issues, or suggest improvements!*
