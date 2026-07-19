@@ -77,7 +77,7 @@ Predictions closely track the ideal diagonal line, confirming the model generali
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/Sales_Prediction.git
+   git clone https://github.com/nada-etman/Sales_Prediction.git
    cd Sales_Prediction
    ```
 
