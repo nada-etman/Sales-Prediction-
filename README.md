@@ -96,7 +96,7 @@ The script will print dataset info, model performance metrics, and platform coef
 ##  Project Structure
 
 ```
-CodeAlpha_Sales_Prediction/
+Sales_Prediction/
 │
 ├── Advertising.csv                     # Dataset
 ├── sales_prediction.py                 # Main script
